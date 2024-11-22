@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+body {
+    /* max-width: 1140px; */
+    background-color: #070716;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vhw;
+}
+
+
+.menu-nav {
+    display: flex;
+    align-items: center;
+}
+
+.menu-group ul,
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+.menu-nav img {
+    filter: drop-shadow(0 0 0 rgb(255, 255, 255));
+    width: 19px;
+}
+
+.main-title h1 {
+    color: #fff;
+    font-size: 54px;
+    background-color: #200aa0f5;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 0px 50px 0px 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+
+}
+
+.main-title h1:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#home {
+    color: #000;
+    background-color: #DCDCDC;
+    border-radius: 10px 10px 11px 0px;
+    padding: 15px;
+
+}
+
+.menu-group li,
+a {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 2px;
+    padding-top: 12px;
+}
+
+.menu-group li:hover {
+    background-color: #200aa0f5;
+    height: 50px;
+    border-radius: 10px 5px 20px 30px;
+    transition: 1.5s;
+
+
+
+}
+
+.container-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin-left: 22.6%;
+    background-color: #200aa0f5;
+    width: 200px;
+    border-radius: 10px 10px 11px 0px;
+    position: absolute;
+    top: 125px;
+    left: 175px;
+
+}
+
+@media (max-width:1920px) {
+    .container-2 {
+        display: block;
+        position: absolute;
+        top: 120px;
+        left: 6px;
+    }
+}
+
+.area-login {
+    display: flex;
+    justify-content: center;
+    padding: 4px;
+
+
+}
+
+.entrar{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin-left: 10px;
+    color: #fff;
+    font-size:6.7px;
+}
+
+.entrar a {
+    font-size:13px;
+}
+
+.entrar img {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    margin-left: 15px;
+    top: 19px;
+    left:10px;
+    border-radius: 10px 10px 8px 8px;
+    background-color: #fff;
+    
+}
+
+.container-2 button {
+    background-color:#fff;
+    color:#200aa0f5;
+    width: 60px;
+    height: 23px;
+    font-size: 13px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+
+.subtitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 60px;
+}
+
+.subtitle-market {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 37px;
+    margin: 20px;
+    padding-left: 5%;
+
+
+
+
+}
+
+.subtitle-market strong {
+    background-color: #200aa0f5;
+    padding: 10px;
+    border-radius: 10px 30px 2px 30px;
+    font-size: 45;
+    transition: all 0.5s;
+    cursor: pointer;
+
+
+}
+
+strong:hover {
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+}
+
+.border-main {
+    border-bottom: 3px solid #200aa0f5;
+    border-radius: 5px 5px 3px 3px;
+    padding: 19px;
+}
+
+
+section .container-3 {
+    display: flex;
+}
+
+.conteudo-center {
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+}
+
+section .search-bar {
+    width: 63.7em;
+    height: 2.5em;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 5px #200aa0f5;
+    border-radius: 50px;
+
+}
+
+#search {
+    width: 75em;
+    border: none;
+    outline: none;
+    margin: 20px;
+    font-weight: 500;
+    font-size: 15px;
+
+}
+
+
+.menu-bar ul, li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4px;
+
+}
+
+.menu-bars {
+    color:#fff;
+    text-transform: uppercase;
+    background-color: #200aa0f5;
+    border-bottom: 1px solid #fff;
+    height: 45px;
+}
+
+.menus {
+    font-size: 14px;
+    font-weight: 500;
+    
+}
+
+.menu-2 li:hover {
+    padding: 5px;
+    border-bottom: 2px solid #fff;
+}
+
+section .dest-center  {
+    display: flex;
+}
+
+.dest-center {
+    display: flex;
+    justify-content: center;
+}
+
+/* .main-page {
+    display:flex;
+    justify-content: center;
+    background-color: #fff;
+    width: 500px;
+    height: 500px;
+}
+ */
+
+
+
+
+
